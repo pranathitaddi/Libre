@@ -1,0 +1,28 @@
+// $backcolor1 : #000411;
+// $backcolor2 : #160C28;
+// $backcolor3 : #515A47;
+// $headingcolor: #AEB7B3;
+// $textcolor: #E1EFE6;
+
+$backcolor1 : #e7e7e7;
+$backcolor2 : #e0dad2;
+$backcolor3 : #ede9d6;
+$backcolor4 : #6C5A49;
+
+$headingcolor: #493921;
+$textcolor: #4b3f30;
+$textcolor1: #c7c7c7;
+$boldcolor: #342d25;
+$textcolor2: #f0f0f0;
+
+@mixin flexCenter(){
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+// @mixin funcName{
+// }
+// hav to do @include funcName();
+// @extend header - basically copies all the styles of the header or whatever
